@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(69,56,201);
+  background: linear-gradient(144deg, rgba(38, 29, 108) 0%, rgba(78, 35, 106) 50%, rgba(103, 15, 16) 100%);
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  height: 100px;
+}
+
+.container-header {
+  padding: 0 2.5rem;
+}
+
+.custom-toggler.navbar-toggler {
+  border: none;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.right-nav-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.navbar-language {
+  font-size: 2rem;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.first-section {
+  width: 100%;
+  height: 43.53rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-name {
+  font-size: 1.30rem;
+  margin: 0;
+  font-weight: 400;
+  color: white;
+}
+
+.section-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  padding: 2.5rem;
+}
+
+.section-container img {
+  width: 650px;
+  position: absolute;
+  right: 8rem;
+}
+
+.section-container .intro h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 1.5vw;
+}
+
+.section-container .intro p {
+  font-size: 1.25rem;
+  font-weight: 300;
+  width: 500px;
+  color: white;
+  margin-bottom: 2vw;
+}
+
+.section-container .intro button {
+  font-size: 22px;
+  font-weight: 400;
+  border: 2px solid #9878BA;
+  border-radius: 5px;
+  background: none;
+  padding: 8px 40px;
+  color: white;
+}
