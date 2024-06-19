@@ -1,5 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export function CardProject({projectName, projectDescription, projectImage, projectLink}){
     return(
@@ -16,7 +17,7 @@ export function CardProject({projectName, projectDescription, projectImage, proj
             <p className="font-bold text-2xl">{projectName}</p>
             <p className="text-base"><span className="font-medium">Stacks:</span> {projectDescription}</p>
           </div>
-          <a href={projectLink} className="bg-purple font-semibold flex w-28 gap-3 text-center justify-center text-lg items-center text-white py-1 rounded cursor-pointer">Demo <ArrowRight /></a>
+          <Link href={projectLink} className="bg-purple font-semibold flex w-28 gap-3 text-center justify-center text-lg items-center text-white py-1 rounded cursor-pointer">Demo <ArrowRight /></Link>
         </div>
     )
 }
